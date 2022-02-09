@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(255, 134, 154);
+}
+main {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.portrait {
+    max-width: 30%;
+}
+section.top {
+    text-align: center;
+    color: white;
+    font-family: Arial;
+}
+.list {
+    font-weight: bold;
+    font-family: Arial;
+    
+}
+li {
+    padding: 0.5em 0; /* top/bottom left/right */
+}
+img {
+    display: block;
+    margin: 0 auto;
+}
