@@ -1,11 +1,14 @@
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
 }
 nav a{
     text-align: center;
-    color: seagreen;
+    color: white;
     text-decoration: none;
+    font-family: 'Manrope', monospace;
+    padding: 35px;
 }
 #hero-msg h1 {
     text-align: center;
@@ -24,45 +27,63 @@ main section {
 }
 body {
     background-color: #fcfbfb; 
+    font-family: 'Barlow', monospace;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+    
 }
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color: #286A55;
+    font-family: 'Manrope', sans-serif;
 }
 nav a:hover {
-    background-color: black;
+    background-color: #40A68D;
     color: white;
 }
-.book {
-    background-color: slateblue;
-    color: hotpink;
+.book, .join {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
-.join {
-    background-color: red;
-    color: hotpink;
+
+.book:hover, .join:hover {
+    background-color: #286A55;
+    color: black;
+    border-radius: 5px;
 }
-.book:hover {
-    background-color: tan;
-    color: hotpink;
-}
-.join:hover {
-    background-color: seagreen;
-    color: hotpink;
-}
+
 #background{
- background-color: slategrey;
+ background-color:#286A55;
+}
+.card-img {
+    border: 10px solid #286A55;
 }
 .msg{
-    background-color: turquoise;
+    background-color: rgb(75, 75, 75);
+    line-height: 1.5em;
+    color: white;
+    padding: 35px;
 }
 .msg h2 {
-    color: hotpink;
+    color: white;
 }
 .msg p {
-    color: hotpink;
+    color: white;
+    font-size: .8em;
+    padding: 15px;
+}
+main section img {
+    box-sizing: border-box;
 }
 footer {
-    background-color: yellow;
+    background-color: #286A55;
+    padding: 15px 30px;
+    margin-top: 200px;
 }
 footer h3 {
     color: black;
@@ -75,16 +96,39 @@ footer a:hover {
     color: white;
     text-decoration: none;
 }
+footer .social img {
+    padding-top: 15px;
+}
 .logo {
-    width: 100px;
+    width: 400px;
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 .home-title{
-    color: green;
+    color: #286A55;
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4 { 
-    color: green;
+    color:  #286A55;
 }
-
+h2 {
+    margin: 0;
+}
+#logo_link {
+    padding-top: 5px;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.camping-card {
+    margin: 200px 0;
+}
+.rapids-card {
+    margin: 200px 0;
+}
+#hero {
+    padding-top: 50px;
+}
