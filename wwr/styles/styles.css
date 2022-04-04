@@ -245,4 +245,31 @@ h2 {
         margin-top: 25px;
     }
 }
-            
+.header2 {
+    width: 100%;
+    position: absolute;
+}
+.page2 {
+    display: grid;
+    justify-items: center;
+    grid-column-gap: 50px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.questions-answers{
+    padding-left: 50px;
+    padding-top: 170px;
+    text-align: left;
+    float: left;
+    grid-column: 1/4;
+    color: white;
+}    
+img {
+    float: right;
+}
+/* I dont understand why this image above won't float to the right?  */ 
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}     
