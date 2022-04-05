@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
+header {
+    box-sizing: border-box;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    align-items: center;
+    padding: 1em;
+}
+.logo {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    background-color: black;
+
+}
+li, a, button {
+    font-family: space, monospace;
+    font-weight: 100;
+    font-size: 30px;
+    color: white;
+    text-decoration: none;
+}
+.nav-links li {
+    display: inline-block;
+    padding: 0px 150px;
+}
+.nav-links li a {
+    transition: all 0.3s ease 0s;
+}
+.nav-links li a:hover {
+    color: #3EB489;
+}
+/* Main Below===================================*/
+
+.main-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr 50px 1fr 50px;
+    font-family: space, monospace;
+}
+footer {
+    font-family: space, monospace;
+}
+/* Container holding the image and the text */
+.container {
+    height: 400px;
+    width: 400px;
+    position: relative;
+  }
+  .subway{
+    position: absolute;
+    width: 100%;
+    grid-column: 1 / 6;
+  }
+  /* Centered text */
+  .centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
